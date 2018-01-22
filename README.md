@@ -1,2 +1,2 @@
 # tricky-web-games
-interesting stuff in JavaScript, PHP
+interesting stuff in HTML, JavaScript, PHP
