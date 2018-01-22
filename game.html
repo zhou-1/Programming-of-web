@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/hhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+<title> small tricky game </title>
+<style type="text/css">
+		a:link{
+		color:green;
+		text-decoration:none;
+		}
+		a:visited{
+		color:purple;
+		}
+		a:hover{
+		background-color:navy;
+		color:yellow;
+		text-decoration:underline;
+		font-weight:bold;
+		}
+		a:active{
+		background-color:orange;
+		}
+</style>
+</head>
+
+<body>
+<script type="text/javascript">
+function tricky(x){
+	alert( x );
+}
+
+tricky("Do you like zhou?");
+tricky("Do you really like zhou?");
+tricky("Are you sure you like zhou?");
+tricky("So it is true, you like zhou?");
+tricky("Ok, fine, how much you like zhou?");
+tricky("So much? I got it, then do you love zhou?");
+tricky("Do you really love zhou?");
+tricky("Are you sure you love zhou?");
+tricky("So it is true, you love zhou?");
+tricky("Ok, fine, how much you love zhou?");
+tricky("Haha, then please just go in front of hime, and say how much you love hime");
+
+function thanks(){
+	alert("thanks for playing this small tricky game, hope you like it!");
+}
+
+function doFirst(){
+	document.write("Zhou, I love U!");
+	doSecond();
+}
+
+function doSecond(){
+	document.write("huize, I love U!");
+	doFirst();
+}
+
+function dont(){
+	doFirst();
+}
+</script>
+
+<form>
+<input type="button" value="Thank you" onclick="thanks()"/>
+<p> </p>
+<input type="button" value="Dnn't touch me!!!!!" onclick="dont()"/>
+</form>
+
+<hr/>
+
+<p> <a href="index.html"> Go back to main page </a> </p>
+</body>
+
+</html>
