@@ -1,2 +1,2 @@
-# tricky-web-games
+# Programming of Web
 interesting stuff in HTML, JavaScript, PHP
